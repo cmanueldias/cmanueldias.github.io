@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Literature Pairs</title>
+    <title>WOOK procuras</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
@@ -14,7 +14,7 @@
 
     <div class="container">
         <header>
-            <h1>Literature Pairs</h1>
+            <h1>WOOK procuras</h1>
         </header>
 
         <section class="score-panel">
@@ -24,7 +24,7 @@
         		<li><i class="fa fa-star"></i></li>
         	</ul>
 
-        	<span class="moves">0</span> Move(s)
+        	<span class="moves">0</span> Jogada(s)
 
             <div class="timer">
             </div>
@@ -36,63 +36,57 @@
 
         <ul class="deck" id="card-deck">
             <li class="card" type="diamond">
-                <i>Diamond</i>
+                <i class="fa">Diamond</i>
             </li>
             <li class="card" type="plane">
-                <i">Paper Plane</i>
+                <i class="fa">Paper Plane</i>
             </li>
             <li class="card match" type="anchor">
-                <i>Carlos</i>
+                <i class="fa">Carlos</i>
             </li>
             <li class="card" type="bolt" >
-                <i>Bolt</i>
+                <i class="fa">Bolt</i>
             </li>
             <li class="card match" type="anchor">
-                <i>Luisa</i>
-            </li>
-            <li class="card" type="leaf">
-                <i>Leaf</i>
+                <i class="fa">Luisa</i>
             </li>
             <li class="card" type="bicycle">
-                <i>Bicycle</i>
+                <i class="fa">Bicycle</i>
             </li>
             <li class="card" type="diamond">
-                <i>Diamond</i>
+                <i class="fa">Diamond</i>
             </li>
             <li class="card" type="bomb">
-                <i>Bomb</i>
-            </li>
-            <li class="card" type="leaf">
-                <i>Leaf</i>
+                <i class="fa">Bomb</i>
             </li>
             <li class="card" type="bomb">
-                <i>Bomb</i>
+                <i class="fa">Bomb</i>
             </li>
             <li class="card open show" type="bolt">
-                <i>Bolt</i>
+                <i class="fa">Bolt</i>
             </li>
             <li class="card" type="bicycle">
-                <i>Bicycle</i>
+                <i class="fa">Bicycle</i>
             </li>
             <li class="card" type="plane">
-                <i>Paper Plane</i>
+                <i class="fa">Paper Plane</i>
             </li>
         </ul>
 
         <div id="popup1" class="overlay">
             <div class="popup">
-                <h2>Congratulations 🎉</h2>
+                <h2>Parabéns 🎉</h2>
                 <a class="close" href=# >×</a>
                 <div class="content-1">
-                    Congratulations you're a winner 🎉🎉
+                    Parabéns! És um vencedor 🎉🎉
                 </div>
                 <div class="content-2">
-                    <p>You made <span id=finalMove> </span> moves </p>
-                    <p>in <span id=totalTime> </span> </p>
+                    <p>Tu fizeste <span id=finalMove> </span> Jogadas </p>
+                    <p>em <span id=totalTime> </span> </p>
                     <p>Rating:  <span id=starRating></span></p>
                 </div>
                 <button id="play-again"onclick="playAgain()">
-                    Play again 😄</a>
+                    Jogar de novo 😄</a>
                 </button>
             </div>
         </div>

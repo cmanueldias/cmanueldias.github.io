@@ -1,6 +1,7 @@
 // cards array holds all cards
 let card = document.getElementsByClassName("card");
 let cards = [...card];
+let allPairs = [...card];
 
 // deck of all cards in game
 const deck = document.getElementById("card-deck");
@@ -201,7 +202,7 @@ function startTimer(){
 
 // @description congratulations when all cards match, show modal and moves, time and rating
 function congratulations(){
-    if (matchedCard.length == 16){
+    if (matchedCard.length == 12){
         clearInterval(interval);
         finalTime = timer.innerHTML;
 

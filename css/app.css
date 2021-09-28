@@ -54,7 +54,7 @@ h1 {
 
 .deck .card {
 	height: 3.7rem;
-	width: 3.7rem;
+	width: 5.7rem;
 	margin: 0.2rem 0.2rem;
 	background: #141214;;
 	font-size: 0;
@@ -321,13 +321,13 @@ h1 {
 	}
 
 	.deck {
-		width: 660px;
-		height: 680px;
+		width: 1600px;
+		height: 800px;
 	}
 
 	.deck .card {
-		height: 125px;
-		width: 125px;
+		width: 480px;
+		height: 160px;
 	}
 
 	.popup {
