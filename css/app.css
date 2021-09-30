@@ -18,7 +18,7 @@ body {
 
 body {
 	background: #ffffff;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'BryantProMedium', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 	font-size: 16px;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-	font-family: 'Gloria Hallelujah', cursive;
+	/* font-family: 'BryantProMedium', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif; */
 }
 
 
@@ -172,13 +172,11 @@ h1 {
 	width: 85%;
 	position: relative;
 	transition: all 5s ease-in-out;
-	font-family: 'Gloria Hallelujah', cursive;
 }
   
 .popup h2 {
 	margin-top: 0;
 	color: #333;
-	font-family: Tahoma, Arial, sans-serif;
 }
 
 .popup .close {
@@ -219,7 +217,6 @@ h1 {
 	display: block;
 	margin: 0 auto;
 	width: 50%;
-	font-family: 'Gloria Hallelujah', cursive;
 	color: #ffffff;
 	border-radius: 5px;
 }
