@@ -1,7 +1,8 @@
-// cards array holds all cards
+// cards arrays
 let card = document.getElementsByClassName("card");
 let allPairs = [...card];
 let cards = [];
+let openedCards = [];
 
 // deck of all cards in game
 const deck = document.getElementById("card-deck");
@@ -25,10 +26,6 @@ let closeicon = document.querySelector(".close");
 // declare modal
 let modal = document.getElementById("popup1")
 
-// array for opened cards
-let openedCards = [];
-
-
 // @description shuffles pairs
 // @param {pairs, pairsToShuffle}
 // @returns shuffledarray
@@ -43,7 +40,7 @@ function shufflePairs(pairs, pairsToShuffle) {
 
         index = Math.floor(Math.random() * tempPairs.length);
         tempType = tempPairs[index].type;
-        shuffledArray.push(tempPairs[index);
+        shuffledArray.push(tempPairs[index]);
         tempPairs.splice(index,1);
 
         // Get the otherHalf
