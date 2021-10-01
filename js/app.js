@@ -26,6 +26,11 @@ let closeicon = document.querySelector(".close");
 // declare modal
 let modal = document.getElementById("popup1")
 
+// declare time
+let second = 0, minute = 0, hour = 0;
+let timer = document.querySelector(".timer");
+let interval;
+
 // @description shuffles pairs
 // @param {pairs, pairsToShuffle}
 // @returns shuffledarray
@@ -211,9 +216,6 @@ function moveCounter(){
 
 
 // @description game timer
-let second = 0, minute = 0; hour = 0;
-let timer = document.querySelector(".timer");
-let interval;
 function startTimer(){
     interval = setInterval(function(){
         timer.innerHTML = minute+"mins "+second+"secs";
