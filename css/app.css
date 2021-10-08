@@ -17,24 +17,38 @@ body {
 }
 
 body {
-	background: #ffffff;
-	font-family: 'BryantProMedium', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	background-color: #357ce6;
+	background-image: url("https://www.wook.pt/img/_20210922-livros_universitarios.jpg");
+	background-repeat: no-repeat;
+
+	background-attachment: fixed;
+	background-position: top center;
+
 	font-size: 16px;
+	text-shadow: 2px 2px #357ce6;
+	color: white;
 }
 
+.logo {
+	margin-top: 10px;
+}
 .container {
 	display: flex;
+	max-width: 2600px;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 }
+
+
+
 
 /*
  * Styles for the deck of cards
  */
 .deck {
 	width: 85%;
-	background: #716F71;
+	background-color: #357ce6;
 	padding: 1rem;
 	border-radius: 4px;
 	box-shadow: 8px 9px 26px 0 rgba(46, 61, 73, 0.5);
@@ -49,7 +63,7 @@ body {
 	height: 3.7rem;
 	width: 5.7rem;
 	margin: 0.2rem 0.2rem;
-	background: #141214;;
+	background: #fff;;
 	font-size: 0;
 	color: #ffffff;
 	border-radius: 5px;
@@ -62,7 +76,7 @@ body {
 
 .deck .card.open {
 	transform: rotateY(0);
-	background: #02b3e4;
+	background: #3a6ae1;
 	cursor: default;
 	animation-name: flipInY;
 	-webkit-backface-visibility: visible !important;
@@ -76,7 +90,7 @@ body {
 
 .deck .card.match {
 	cursor: default;
-	background: #E5F720;
+	background: #3ca2e9;
 	font-size: 33px;
 	animation-name: rubberBand;
 	-webkit-backface-visibility: visible !important;
@@ -185,6 +199,8 @@ body {
 .popup .close:hover {
 	color: #E5F720;
 }
+
+
 
 .popup .content-1,
 .content-2 {
@@ -295,26 +311,50 @@ body {
 		width: 4.7rem;
 		height: 4.7rem;
 	}
+
+	.container {
+		font-size: 16px;
+	}
 }
 
 
 /* For Tablets and larger screens */
-@media (min-width: 768px) {
+@media (min-width: 650px) {
 	.container {
 		font-size: 22px;
 	}
 
 	.deck {
-		width: 1600px;
-		height: 800px;
+		width:800px;
+		height: 300px;
 	}
 
 	.deck .card {
-		width: 480px;
-		height: 160px;
+		width: 120px;
+		height: 120px;
 	}
 
 	.popup {
 		width: 60%;
 	}
 }
+
+	@media (min-width: 1080px) {
+		.container {
+			font-size: 22px;
+		}
+	
+		.deck {
+			width: 1200px;
+			height: 600px;
+		}
+	
+		.deck .card {
+			width: 280px;
+			height: 160px;
+		}
+	
+		.popup {
+			width: 60%;
+		}
+	}
