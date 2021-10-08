@@ -345,13 +345,13 @@ body {
 		}
 	
 		.deck {
-			width: 1200px;
-			height: 600px;
+			width: 1000px;
+			height: 500px;
 		}
 	
 		.deck .card {
-			width: 280px;
-			height: 160px;
+			width: 200px;
+			height: 120px;
 		}
 	
 		.popup {

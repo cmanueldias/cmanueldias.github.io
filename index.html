@@ -2,19 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>WOOK procuras</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/app.css">
 </head>
+
+<style>
+
+    h1 {
+        font-family: 'BryantProLight', sans-serif;
+	font-size: 58px;
+
+    }
+
+    h2 {
+        font-family: 'BryantProRegular', sans-serif;
+	font-size: 32px;
+
+    }
+    h2 b {
+        font-family: 'BryantProBold', sans-serif;
+	font-size: 32px;
+
+    }
+   
+
+</style>
 <body>
 
-    <div class="container">
-        <header>
-            <h1>WOOK procuras</h1>
-        </header>
+    <div class="container center">
+        <div class="logo">
+            <img class="img-responsive" src="https://www.wook.pt/public/images/header-01-B.png" width="200" height="48"> 
+        </div>
 
+       <!-- <div class="col-xs-12" style="text-align: center;  width: 100%; color: white;">
+            <h1>livros universitários <b><br class="hidden-lg">até 50%</b></h1>
+        </div>-->
+
+        <div class="col-xs-12" style="text-align: center;  width: 100%;">
+            <h2>Põe a tua memória à prova<br>
+                <b>Encontra os pares românticos da literatura<br></b>
+                Joga e diverte-te!</h2>
+        </div>
+        <header>
+              <!--  <h2>WOOK procuras</h2>-->
+        </header>
+        
         <section class="score-panel">
         	<ul class="stars">
         		<li><i class="fa fa-star"></i></li>
@@ -125,12 +164,12 @@
             </li>
         </ul>
 
-        <div id="popup1" class="overlay">
+        <div id="popup1" class="overlay" style="color: #333333; 	text-shadow: none;">
             <div class="popup">
                 <h2>Parabéns 🎉</h2>
                 <a class="close" href=# >×</a>
                 <div class="content-1">
-                    Parabéns! És um vencedor 🎉🎉 🎉
+                 Parabéns! És um vencedor 🎉🎉 🎉
                 </div>
                 <div class="content-2">
                     <p>Tu fizeste <span id=finalMove> </span> Jogadas </p>
