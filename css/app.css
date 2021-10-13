@@ -62,7 +62,6 @@ body {
     width: 5.7rem;
     margin: 0.2rem 0.2rem;
     background: #fff;
-    ;
     font-size: 0;
     color: #ffffff;
     border-radius: 5px;
@@ -310,20 +309,26 @@ body {
 
 /* For Tablets and larger screens */
 
-@media (min-width: 650px) {
+@media (min-width: 700px) {
     .container {
         font-size: 22px;
     }
     .deck {
-        width: 800px;
-        height: 300px;
+        width: 680px;
+        height: 500px;
     }
     .deck .card {
-        width: 120px;
-        height: 120px;
+        width: 200px;
+        height: 100px;
     }
     .popup {
         width: 60%;
+    }
+    .deck .card.show {
+        font-size: 20px;
+    }
+    .deck .card.match {
+        font-size: 20px;
     }
 }
 
