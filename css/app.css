@@ -326,9 +326,11 @@ body {
     }
     .deck .card.show {
         font-size: 20px;
+        text-align: center;
     }
     .deck .card.match {
         font-size: 20px;
+        text-align: center;
     }
 }
 
